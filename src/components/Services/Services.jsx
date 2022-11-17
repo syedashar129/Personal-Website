@@ -7,6 +7,7 @@ import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import Resume from './resume.pdf';
+import resume from './Syed Ashar - Resume.pdf'
 
 const Services = () => {
   // context
@@ -24,14 +25,14 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>services</span>
+        <span style={{ color: darkMode ? "white" : "" }}>My</span>
+        <span>Technical Skills</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+          I have previously interned at J.P Morgan Chase as Software Engineer Intern.
           <br />
-          ispum is simpley dummy text of printing
+          I primarily have experience in Full-Stack development
         </spane>
-        <a href={Resume} download>
+        <a href={resume} download>
           <button className="button s-button">Download CV</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
@@ -46,8 +47,8 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"Databases"}
+            detail={"MongoDB, DynamoDB, MySQL, H2, Firebase"}
           />
         </motion.div>
         {/* second card */}
@@ -58,8 +59,8 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            heading={"Back End"}
+            detail={"Spring Boot, Flask, Node.js"}
           />
         </motion.div>
         {/* 3rd */}
@@ -70,9 +71,9 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
+            heading={"Front End"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "React.js, MUI, Tailwind CSS "
             }
             color="rgba(252, 166, 31, 0.45)"
           />
